@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Menu from './components/menu/Menu';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Menu/>
+      </header>
+      <main>
        <h1>Hello world!</h1>
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +21,8 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </main>
+      
     </div>
   );
 }

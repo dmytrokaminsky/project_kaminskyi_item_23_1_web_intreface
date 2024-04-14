@@ -4,7 +4,7 @@ const Menu = () => {
  return (
  <Navbar>
  <Container>
- <Navbar.Brand href="#home">Navbar with text</Navbar.Brand>
+ <Navbar.Brand href="/">Energy</Navbar.Brand>
  <Navbar.Toggle />
  <Navbar.Collapse className="justify-content-end">
  <Navbar.Text>
